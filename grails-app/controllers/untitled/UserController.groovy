@@ -31,5 +31,4 @@ class UserController {
     def change_password() {
 
     }
-
 }
