@@ -27,7 +27,7 @@
                 <input class="text" type="text" name="address" placeholder="Address" required="">
                 <input class="text" type="text" name="phone" placeholder="Phone" required="">
                 <input class="text email" type="email" name="email" placeholder="Email" required="">
-                <input type="date" name="dateofbirth">
+                <input type="tel" onfocus="(this.type='date')" onblur="(this.type='tel')" name="dateofbirth" placeholder="Birthdate">
                 <input class="text" type="password" name="password" placeholder="Password" required="">
 
                 <input type="submit" value="SIGNUP">
@@ -50,13 +50,6 @@
     </ul>
 </div>
 <!-- //main -->
-
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-        var elems = document.querySelectorAll('.datepicker');
-        var instances = M.Datepicker.init(elems, options);
-    });
-</script>
 
 </body>
 </html>

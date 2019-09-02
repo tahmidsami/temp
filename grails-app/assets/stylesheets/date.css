@@ -1,5 +1,5 @@
-[type="date"] {
-    background:#fff url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png)  97% 50% no-repeat ;
+[type="date"], [type="tel"] {
+    background: url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png)  97% 50% ;
     font-size: 0.9em;
     color: #fff;
     font-weight: 100;
@@ -10,10 +10,6 @@
     border: solid 1px rgba(255, 255, 255, 0.37);
     -webkit-transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
     transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
-    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 96%, #fff 4%);
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 96%, #fff 4%);
-    background-position: -800px 0;
-    background-size: 100%;
     background-repeat: no-repeat;
     color: #fff;
     font-family: 'Roboto', sans-serif;
@@ -24,3 +20,4 @@
 [type="date"]::-webkit-calendar-picker-indicator {
     opacity: 0;
 }
+
