@@ -21,7 +21,8 @@
     <div class="main-agileinfo">
         <div class="agileits-top">
             <form action="#" method="post">
-                <input class="text" type="text" name="Username" placeholder="Username" required="">
+                <input class="text" type="text" name="firstName" placeholder="First Name" required="">
+                <input class="text" type="text" name="lastName" placeholder="Last Name" required="">
                 <input class="text email" type="email" name="email" placeholder="Email" required="">
                 <input class="text" type="password" name="password" placeholder="Password" required="">
                 <input class="text w3lpass" type="password" name="password" placeholder="Confirm Password" required="">
