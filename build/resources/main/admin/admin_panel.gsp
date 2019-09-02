@@ -5,7 +5,7 @@
 <head>
     <title>Profile Page</title>
 
-    <asset:stylesheet src="style1.css"/>
+    <asset:stylesheet src="style2.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
@@ -30,14 +30,9 @@
 <a <g:link controller="user" action="change_password">Change Password </g:link> </a>
 </div>
 
-<div>
+<div class="main">
     <h1>User List</h1>
-    <p>First Name : </p>
-    <p>Last Name : </p>
-    <p>Address : </p>
-    <p>Phone : </p>
-    <p>Email : </p>
-    <p>Birthdate : </p>
+
 </div>
 
 </body>
